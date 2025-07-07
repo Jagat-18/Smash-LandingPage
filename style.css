@@ -234,3 +234,165 @@ img{
   border: none;
   /* border-bottom: 1px solid #ddd; */
 }
+/* Tablets (<= 992px) */
+@media (max-width: 992px) {
+  .home h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .home p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .services-section {
+    padding: 60px 20px;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .pricing-card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .container4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accordion-item,
+  .heading5,
+  .heading3 {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-about {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .container5 {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+}
+
+/* Small Tablets and Large Mobiles (<= 768px) */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+    height: auto;
+  }
+
+  .rocket-img {
+    max-height: 200px;
+    margin-top: 1rem;
+  }
+
+  .nav.flex-column {
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+
+  .nav-pills .nav-link {
+    width: auto;
+    margin: 5px;
+    padding: 8px 16px;
+  }
+
+  .tab-content .row > div {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .pricing-icon {
+    height: 130px;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pricing-card {
+    height: auto;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .accordion-body,
+  .accordion-button {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .img-about {
+    padding: 0;
+  }
+}
+
+/* Mobile Devices (<= 576px) */
+@media (max-width: 576px) {
+  .home h1 {
+    font-size: 2.25rem;
+  }
+
+  .home p {
+    font-size: 0.95rem;
+  }
+
+  .hero-buttons a {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .service-icon {
+    font-size: 3rem;
+  }
+
+  .mb-3 {
+    font-size: 2rem;
+  }
+
+  .img-about {
+    width: 100%;
+    height: auto;
+  }
+
+  .accordion-item {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .nav.flex-column {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-pills .nav-link {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .tab-content img {
+    height: auto;
+    width: 100%;
+  }
+}
+
