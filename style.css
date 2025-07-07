@@ -237,9 +237,9 @@ img{
 /* Tablets (<= 992px) */
 @media (max-width: 992px) {
       .home{
-             height:calc(100vh - 85px);
+             height:calc(100vh - 115px);
    width:100%;
-   margin-top: 85px;
+   margin-top: 115px;
   .home h1 {
     font-size: 3.5rem;
     text-align: center;
@@ -300,9 +300,9 @@ img{
     flex-direction: column;
     text-align: center;
     padding: 50px 20px;    
-    height:calc(100vh - 85px);
+    height:calc(100vh - 115px);
    width:100%;
-   margin-top: 85px;
+   margin-top: 115px;
   }
 
   .rocket-img {
@@ -355,9 +355,9 @@ img{
 /* Mobile Devices (<= 576px) */
 @media (max-width: 576px) {
    .home{
-    height:calc(100vh - 85px);
+    height:calc(100vh - 115px);
    width:100%;
-   margin-top: 85px;
+   margin-top: 115px;
   .home h1 {
     font-size: 2.25rem;
   }
